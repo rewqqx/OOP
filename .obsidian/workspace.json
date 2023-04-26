@@ -11,8 +11,12 @@
             "id": "f45ee24966f5679c",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "obsidian/Паттерны программирования/Отдельные паттерны/Пораждающие/Singleton.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -73,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "f712c39cc75b14f6",
@@ -84,27 +89,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f5b2a45f2252b77f",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
-              }
-            }
-          },
-          {
             "id": "17b512b06026d203",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "obsidian/Паттерны программирования/Отдельные паттерны/Пораждающие/Singleton.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,14 +116,17 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "obsidian/Паттерны программирования/Отдельные паттерны/Пораждающие/Singleton.md"
+              }
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -145,8 +138,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b749ad6a7ee4b914",
+  "active": "f45ee24966f5679c",
   "lastOpenFiles": [
+    "code/singleton_simple.py~",
+    "code/singleton_meta.py~",
+    "code/singleton_meta.py",
+    "code/singleton_simple.py",
+    "code/simple_singleton.py",
+    "code/singleton.py~",
     "code/singleton.py",
     "code",
     "Новая папка",
@@ -169,15 +168,10 @@
     "obsidian/Паттерны программирования/Отдельные паттерны/Поведенческие/Поведенческие паттерны.md",
     "obsidian/Паттерны программирования/Отдельные паттерны/Структурные",
     "obsidian/Паттерны программирования/Отдельные паттерны/Поведенческие",
-    "obsidian/Паттерны программирования/Отдельные паттерны/Пораждающие",
     "obsidian/Паттерны программирования/Базис/Самые частоиспользуемые (5).md",
     "obsidian/ООП/Когда лучше НЕ использовать ООП.md",
     "obsidian/Паттерны программирования/Отдельные паттерны/Поведенческие/Command.md",
     "obsidian/Паттерны программирования/Отдельные паттерны/Поведенческие/Strategy.md",
-    "obsidian/Паттерны программирования/Отдельные паттерны",
-    "obsidian/Паттерны программирования/Базис",
-    "obsidian/Паттерны программирования",
-    "obsidian/ООП/Альтернативы и их выбор.md",
-    "obsidian/ООП"
+    "obsidian/ООП/Альтернативы и их выбор.md"
   ]
 }
