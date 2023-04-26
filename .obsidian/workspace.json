@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Паттерны программирования/Отдельные паттерны/Пораждающие/Factory.md",
+                "file": "obsidian/Паттерны программирования/Отдельные паттерны/Пораждающие/Builder.md",
                 "mode": "source",
                 "source": false
               }
@@ -27,8 +27,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 341.5
   },
   "right": {
     "id": "f712c39cc75b14f6",
@@ -94,6 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "obsidian/Паттерны программирования/Отдельные паттерны/Пораждающие/Builder.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,7 +115,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "obsidian/Паттерны программирования/Отдельные паттерны/Пораждающие/Builder.md"
+              }
             }
           }
         ]
@@ -135,20 +137,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "79e42596fede2b6b",
+  "active": "f45ee24966f5679c",
   "lastOpenFiles": [
     "obsidian/Паттерны программирования/Отдельные паттерны/Пораждающие/Singleton.md",
+    "obsidian/Паттерны программирования/Отдельные паттерны/Пораждающие/Builder.md",
+    "code/builder_guru.py~",
+    "code/builder_guru.py",
+    "obsidian/Паттерны программирования/Отдельные паттерны/Поведенческие/Template Method.md",
+    "code/builder_simple.py~",
+    "code/builder_simple.py",
     "obsidian/Паттерны программирования/Отдельные паттерны/Пораждающие/Factory.md",
+    "obsidian/Паттерны программирования/Отдельные паттерны/Поведенческие/Command.md",
     "code/factory_method_simple.py~",
     "code/factory_method_simple.py",
     "code/factory_method_guru.py~",
     "code/factory_method_guru.py",
     "code/factory_method.py",
     "code/singleton_simple.py~",
-    "code/singleton_meta.py~",
-    "code/singleton_meta.py",
-    "code/singleton_simple.py",
-    "code/simple_singleton.py",
     "obsidian/Паттерны программирования/Отдельные паттерны/Структурные/Adapter.md",
     "obsidian/Паттерны программирования/Отдельные паттерны/Структурные/Структурные паттерны.md",
     "obsidian/Паттерны программирования/Базис/Связь с ООП и SOLID.md",
@@ -168,8 +173,6 @@
     "obsidian/Паттерны программирования/Отдельные паттерны/Поведенческие/Поведенческие паттерны.md",
     "obsidian/Паттерны программирования/Базис/Самые частоиспользуемые (5).md",
     "obsidian/ООП/Когда лучше НЕ использовать ООП.md",
-    "obsidian/Паттерны программирования/Отдельные паттерны/Поведенческие/Command.md",
-    "obsidian/Паттерны программирования/Отдельные паттерны/Поведенческие/Strategy.md",
-    "obsidian/ООП/Альтернативы и их выбор.md"
+    "obsidian/Паттерны программирования/Отдельные паттерны/Поведенческие/Strategy.md"
   ]
 }

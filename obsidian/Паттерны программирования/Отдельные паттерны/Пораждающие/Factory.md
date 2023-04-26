@@ -11,32 +11,34 @@ Factory Method - это порождающий паттерн, который и
 3. Создающий метод, который по умолчанию возвращает объект с базовым интерфейсом и требует переопределения для использования.
 Здесь мы создаем класс Product, а затем классы наследующиеся от него - ProductA и ProductB. Затем мы создаем класс Factory, который содержит фабричный метод createProduct(). Класс ConcreteFactory наследуется от класса Factory и переопределяет метод createProduct(), чтобы возвращать конкретные объекты на основе переданного параметра productType.
 ```py
-class Product():
-    def __init__(self):
-        self.name = ""
-        self.price = 0
-
-class ProductA(Product):
-    def __init__(self):
-        self.name = "ProductA"
-        self.price = 10
- 
-class ProductB(Product):
-    def __init__(self):
-        self.name = "ProductB"
-        self.price = 20
-
-class Factory():
-    def createProduct(self, productType):
-        pass
-
-class ConcreteFactory(Factory):
-    def createProduct(self, productType):
-        if productType == "A":
-            return ProductA()
-        elif productType == "B":
-            return ProductB()
-        else:
+class Product:  
+    def __init__(self):  
+        self.name = ""  
+        self.price = 0  
+  
+class ProductA(Product):  
+    def __init__(self):  
+        super().__init__()  
+        self.name = "ProductA"  
+        self.price = 10  
+  
+class ProductB(Product):  
+    def __init__(self):  
+        super().__init__()  
+        self.name = "ProductB"  
+        self.price = 20  
+  
+class Factory:  
+    def create_product(self, product_type):  
+        pass  
+  
+class ConcreteFactory(Factory):  
+    def create_product(self, product_type):  
+        if product_type == "A":  
+            return ProductA()  
+        elif product_type == "B":  
+            return ProductB()  
+        else:  
             return None
 ```
 # Когда применять
