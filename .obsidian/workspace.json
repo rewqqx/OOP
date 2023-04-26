@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Паттерны программирования/Отдельные паттерны/Пораждающие/Singleton.md",
+                "file": "obsidian/Паттерны программирования/Отдельные паттерны/Пораждающие/Factory.md",
                 "mode": "source",
                 "source": false
               }
@@ -27,7 +27,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "f712c39cc75b14f6",
@@ -94,7 +94,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Паттерны программирования/Отдельные паттерны/Пораждающие/Singleton.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,9 +115,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "obsidian/Паттерны программирования/Отдельные паттерны/Пораждающие/Singleton.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -138,17 +135,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f45ee24966f5679c",
+  "active": "79e42596fede2b6b",
   "lastOpenFiles": [
+    "obsidian/Паттерны программирования/Отдельные паттерны/Пораждающие/Singleton.md",
+    "obsidian/Паттерны программирования/Отдельные паттерны/Пораждающие/Factory.md",
+    "code/factory_method_simple.py~",
+    "code/factory_method_simple.py",
+    "code/factory_method_guru.py~",
+    "code/factory_method_guru.py",
+    "code/factory_method.py",
     "code/singleton_simple.py~",
     "code/singleton_meta.py~",
     "code/singleton_meta.py",
     "code/singleton_simple.py",
     "code/simple_singleton.py",
-    "code/singleton.py~",
-    "code/singleton.py",
-    "code",
-    "Новая папка",
     "obsidian/Паттерны программирования/Отдельные паттерны/Структурные/Adapter.md",
     "obsidian/Паттерны программирования/Отдельные паттерны/Структурные/Структурные паттерны.md",
     "obsidian/Паттерны программирования/Базис/Связь с ООП и SOLID.md",
@@ -166,8 +166,6 @@
     "obsidian/Корень.md",
     "obsidian/Паттерны программирования/Отдельные паттерны/Пораждающие/Пораждающие паттерны.md",
     "obsidian/Паттерны программирования/Отдельные паттерны/Поведенческие/Поведенческие паттерны.md",
-    "obsidian/Паттерны программирования/Отдельные паттерны/Структурные",
-    "obsidian/Паттерны программирования/Отдельные паттерны/Поведенческие",
     "obsidian/Паттерны программирования/Базис/Самые частоиспользуемые (5).md",
     "obsidian/ООП/Когда лучше НЕ использовать ООП.md",
     "obsidian/Паттерны программирования/Отдельные паттерны/Поведенческие/Command.md",
